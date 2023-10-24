@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundamentos JavaScript</h1>
+    <script>
+        var hola="Hoola mundo" // se van a quedar en el scope global del documento
+        let hello="Helloworld" // solo va a existir en el bloque definido
+        console.log(hola)
+        console.log(window)
+        var musica = "Rock"
+        console.log("Variable Musica antes del bloque",musica)
+        {
+            var musica="Pop"
+            console.log("Variable Musica dentro del bloque",musica)
+        }
+        console.log("Variable Musica despues del bloque",musica)
+        
+
+    </script>
+</body>
+</html>
